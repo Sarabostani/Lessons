@@ -1,26 +1,27 @@
+import java.time.Year;
 import java.util.Scanner;
 
 public class Lesson1 {
 
 	public static void main(String[] args) {
+		// needed for reading from input
 		Scanner reader = new Scanner(System.in);
-		int x = 0;
-		int y = 0;
-		System.out.println("enter number 1");
+
+		System.out.println("Enter the radius:");
+		double radius = reader.nextDouble();
+		System.out.println("Circumeference is : " + 2 * Math.PI * radius);
+		System.out.println("Area is : " + Math.PI * radius * radius ); // also could use Math.pow(radius, 2)
 		
-		x = reader.nextInt();
+		System.out.println("Enter your DOB");
+		System.out.println("Day:");
+		int day = reader.nextInt();
+		System.out.println("Month:");
+		int month = reader.nextInt();
+		System.out.println("Year:");
+		int year = reader.nextInt();
 		
-		System.out.println("enter number 2");
-		y = reader.nextInt();
-
-		System.out.println(x + y);
-
-		System.out.println("enter number 3");
-		int z = reader.nextInt();
-		double root = Math.sqrt(z);
-		System.out.println("Root is = " + root);
-
-		System.out.println("PI is = " + Math.PI);
+		int age = Year.now().getValue() - year;
+		System.out.println("You were born on " + month + "/" + day + "/" + year + " and your age is " + age);
 
 		reader.close();
 	}
