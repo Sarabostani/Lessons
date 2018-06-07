@@ -21,18 +21,21 @@ public class Roots {
 		if (quad < 0) {
 			System.out.println("No real roots");
 		}
-		else if( a == 0) {
+		else if( a == 0 && b != 0) {
 			System.out.println("root is : " + (-c/b) );
 		}
-		else if( quad == 0) {
+		else if( quad == 0 && a != 0) {
 			double root = -b/(2*a);
 			System.out.println("Single root : " + root);
 		}
-		else {
+		else if(a != 0) {
 			double root1 = (-b + Math.sqrt(quad))/(2*a);
 			double root2 = (-b - Math.sqrt(quad))/(2*a);
 			
 			System.out.println("2 roots found, root 1 : " + root1 + " root 2: " + root2);
+		}
+		else {
+			System.out.println("No roots found");
 		}
 		
 		read.close();
