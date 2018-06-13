@@ -185,6 +185,7 @@ public class Lesson3 {
 		/*System.out.println(result1);
 		System.out.println(result2);*/
 		
+		read.close();
 		
 	}
 
