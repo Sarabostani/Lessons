@@ -1,3 +1,4 @@
+package les4_loops;
 import java.util.Scanner;
 
 /*
