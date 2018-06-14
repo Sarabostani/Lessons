@@ -1,4 +1,4 @@
-package les4_loops;
+package lesson_4_loops;
 
 public class Triangle {
 
