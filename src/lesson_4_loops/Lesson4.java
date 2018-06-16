@@ -84,14 +84,14 @@ public class Lesson4 {
             for(int j = 1; j <= i; j++) {
                 System.out.print("*");
             }
-            System.out.println("");
+            System.out.println();
         }
 
         String name = "Houman";
 
-        name.compareTo("Houman");
+        boolean areEqual = name.equals("Houman");
 
-        if(name == "houman") {
+        if(areEqual) {
             System.out.println("You're awesome");
         }
 
