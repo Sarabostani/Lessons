@@ -22,8 +22,10 @@ public class Functions {
 		// function call (executing a function)
 		sayHi(3);
 
-		int result = sum(4, 5);
+		int result = sum(4, 5); // 9
 		System.out.println(result);
+		
+		int x = sum(2,3); // int x = 2 + 3
 		
 		result = sum(4, 5, 6);
 		System.out.println(result);
@@ -68,6 +70,10 @@ public class Functions {
 	public static String sayJolly(String str) {
 		String j = str + " jolly";
 		return j;
+	}
+	
+	public static boolean isLeapYear(int year) {
+		return year % 4 == 0 && year % 100 == 0 && year % 400 == 0;
 	}
 
 }
