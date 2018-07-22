@@ -95,10 +95,10 @@ public class Lesson3 {
 		 * */
 		
 		
-		boolean p = true;
-		boolean q = false;
-		boolean result1 = !(p && q);
-		boolean result2 = (!p || !q);
+//		boolean p = true;
+//		boolean q = false;
+//		boolean result1 = !(p && q);
+//		boolean result2 = (!p || !q);
 		
 		String someString = read.nextLine();
 		

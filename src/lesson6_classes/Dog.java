@@ -7,6 +7,6 @@ public class Dog {
         Animal animal = new Animal();
         animal.sayStuff();
 
-        int w = animal.getWeight();
+//        int w = animal.getWeight();
     }
 }

@@ -27,7 +27,7 @@ import java.util.Scanner;
 public class Lesson4 {
     public static void main(String[] args) {
         Scanner read = new Scanner(System.in);
-        int index = 1;
+//        int index = 1;
 
         /*
          * while( index <= 10 ) { System.out.println(index); if( index % 7 == 0) {
@@ -97,6 +97,9 @@ public class Lesson4 {
         for (int i = 0; i < lastName.length; i++) {
             System.out.print(lastName[i]);
         }
+        
+        
+        read.close();
 
     }
 }

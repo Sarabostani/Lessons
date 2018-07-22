@@ -1,7 +1,5 @@
 package lesson6_classes;
 
-import java.util.Scanner;
-
 public class Lesson6 {
 
     /*

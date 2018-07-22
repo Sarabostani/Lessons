@@ -26,7 +26,7 @@ public class Functions {
         int result = sum(4, 5); // 9
         System.out.println(result);
 
-        int x = sum(2, 3); // int x = 2 + 3
+//        int x = sum(2, 3);
 
         result = sum(4, 5, 6);
         System.out.println(result);
